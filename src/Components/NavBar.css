@@ -1,0 +1,58 @@
+/* NavBar.css */
+
+
+/* #busybuy{
+    color:aqua;
+    display: flex;
+    font-size: 15px;
+    background-color: blue;
+    padding:10px;
+    
+}
+
+
+#home{
+    color:aqua;
+    display: flex;
+    font-size: 15px;
+}
+
+
+#signIn{
+    color:aqua;
+    display: flex;
+    font-size: 15px;
+} */
+
+
+
+.navbar {
+    background-color: black;
+    color: aqua;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Style for the active link, e.g., when the user is on the "Home" page */
+  .nav-links a:hover,
+  .nav-links a:focus,
+  .nav-links a:active {
+    color: #ffcc00; /* Change to your desired active link color */
+  }
